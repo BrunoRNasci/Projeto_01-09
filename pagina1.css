@@ -13,7 +13,7 @@ main{
 
 #menu{
     width: 90%;
-    height: 40px;
+    height: 60px;
     position: fixed;
     background-color: #4B6EA4;
     z-index: 2;
@@ -27,6 +27,11 @@ main{
     text-decoration: none;
     font-size: 25px;
     color: white;
+}
+
+#menu img{
+    width: 30px;
+    height: 40px;
 }
 
 
@@ -184,6 +189,11 @@ main{
     transform: scale(1.03);
 }
 
+#salto_duplo a{
+    text-decoration: none;
+    color: white;
+}
+
 #curso_sky{
     width: 100%;
     height: 800px;
@@ -208,6 +218,7 @@ main{
     text-align: left;
     font-size: 25px;
     padding-top: 20px;
+    text-shadow: 1px black
 }
 
 #curso_sky button{
@@ -228,6 +239,11 @@ main{
 
 #curso_sky button:hover{
     transform: scale(1.03);
+}
+
+#curso_sky a{
+    text-decoration: none;
+    color: white;
 }
 
 #wind_tunnel{
@@ -274,6 +290,76 @@ main{
 
 #wind_tunnel button:hover{
     transform: scale(1.03);
+}
+
+#saiba_mais{
+    width: 80%;
+    height: 215px;
+    /*background-color: #4B6EA4;*/
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+#preço_salto_duplo{
+    width: 30%;
+    height: 215px;
+    float: left;
+    background-color: #4B6EA4;
+}
+
+#preço_salto_duplo h4{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: verdana;
+    padding-left: 50px;
+}
+
+#preço_salto_duplo p{
+    color: black;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+#preço_salto_duplo h3{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    font-family: verdana;
+    padding-left: 65px;
+}
+
+#preço_curso{
+    width: 30%;
+    height: auto;
+    float: right;
+    background-color: #4B6EA4;
+}
+
+#preço_curso h4{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: verdana;
+    padding-left: 50px;
+}
+
+#preço_curso p{
+    color: black;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+#preço_curso h3{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    font-family: verdana;
+    padding-left: 65px;
 }
 
 .duvidas{
